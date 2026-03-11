@@ -1,0 +1,27 @@
+<div class="stats-container">
+
+  <mat-card class="card">
+    <mat-icon>payments</mat-icon>
+    <h3>Total de Vendas</h3>
+    <p>{{ totalSales | currency:'BRL':'symbol':'1.2-2' }}</p>
+  </mat-card>
+
+  <mat-card class="card">
+    <mat-icon>shopping_cart</mat-icon>
+    <h3>Pedidos</h3>
+    <p>{{ orders }}</p>
+  </mat-card>
+
+  <mat-card class="card">
+    <mat-icon>people</mat-icon>
+    <h3>Clientes</h3>
+    <p>{{ customers }}</p>
+  </mat-card>
+
+  <mat-card class="card">
+    <mat-icon>trending_up</mat-icon>
+    <h3>Receita</h3>
+    <p>{{ revenue | currency:'BRL':'symbol':'1.2-2' }}</p>
+  </mat-card>
+
+</div>
