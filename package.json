@@ -1,13 +1,13 @@
 {
   "name": "angular-sales-dashboard",
   "version": "0.0.0",
-  "scripts": {
+ "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
-  },
+},
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.2.0",
