@@ -1,12 +1,8 @@
 {
-  "version": 2,
-  "builds": [
+  "routes": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist/angular-sales-dashboard"
-      }
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
